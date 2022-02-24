@@ -1,0 +1,20 @@
+How to run project on your device:
+
+	Step 1: Download Java JDk 8, install it, set it as Environment variable, also set its bin path as environment path.
+
+	Step 2: Download and install eclipse.
+
+	Step 3: Download Maven, install it, set it as Environment variable, also set its bin path as environment path.
+
+			To check installation is success, open your command, write "java -version" // it will show you the version if available
+
+			"mvn -version" // it will show you the version if available
+
+	Step 4: Open eclipse and then open the whole project from the file system.
+
+			[N.B: You don't need to download any additional jar. Maven dependency will take care of it]
+
+	Step 5: I removed the credentials from all the classes. You just have to put new credentials in the classes to run the test. It will start working. I already separated the web elements in page factory.
+
+[N.B: you credentials won't work anymore after few hours because this is a demo website for testing.]
+Dummy Emails were generated from https://www.mailinator.com/ and it only runs until the mailinator window is open with current dummy email.

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.nopcommerce.frontend.Register"/>
+      <class name="com.nopcommerce.frontend.Login"/>
+      <class name="com.nopcommerce.frontend.Wish"/>
+      <class name="com.nopcommerce.admin.Products"/>
+      <class name="com.nopcommerce.admin.Manufacturers"/>
+      <class name="com.nopcommerce.frontend.Cart"/>
+      <class name="com.nopcommerce.admin.Discount"/>
+      <class name="com.nopcommerce.frontend.VerifyTitles"/>
+      <class name="com.nopcommerce.frontend.SocialProfiles"/>
+      <class name="com.nopcommerce.frontend.ResetPassword"/>
+      <class name="com.nopcommerce.frontend.ContactUs"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

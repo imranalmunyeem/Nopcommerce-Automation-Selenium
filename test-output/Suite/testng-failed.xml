@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.nopcommerce.admin.Products">
+        <methods>
+          <include name="close"/>
+          <include name="setDriver"/>
+          <include name="exportProductsAsExcel"/>
+        </methods>
+      </class> <!-- com.nopcommerce.admin.Products -->
+      <class name="com.nopcommerce.admin.Manufacturers">
+        <methods>
+          <include name="addNewManufacturer"/>
+          <include name="close"/>
+          <include name="setDriver"/>
+        </methods>
+      </class> <!-- com.nopcommerce.admin.Manufacturers -->
+      <class name="com.nopcommerce.frontend.Login">
+        <methods>
+          <include name="userLoginWithEmptySubmission"/>
+          <include name="setDriver"/>
+          <include name="close"/>
+          <include name="userLoginWithInvalidCredentials"/>
+          <include name="userLoginWithValidCredentialslogin"/>
+        </methods>
+      </class> <!-- com.nopcommerce.frontend.Login -->
+      <class name="com.nopcommerce.frontend.ResetPassword">
+        <methods>
+          <include name="setDriver"/>
+          <include name="close"/>
+          <include name="resetPasswordTest"/>
+        </methods>
+      </class> <!-- com.nopcommerce.frontend.ResetPassword -->
+      <class name="com.nopcommerce.frontend.SocialProfiles">
+        <methods>
+          <include name="validateTwitterUrl"/>
+          <include name="setDriver"/>
+          <include name="validateYoutubeUrl"/>
+          <include name="close"/>
+          <include name="validateFacebookUrl"/>
+          <include name="validateRssUrl"/>
+        </methods>
+      </class> <!-- com.nopcommerce.frontend.SocialProfiles -->
+      <class name="com.nopcommerce.frontend.VerifyTitles">
+        <methods>
+          <include name="setDriver"/>
+          <include name="aboutUsTitle"/>
+          <include name="close"/>
+          <include name="cartTitle"/>
+          <include name="contactUsTitle"/>
+          <include name="loginTitle"/>
+          <include name="wishTitle"/>
+          <include name="resetPasswordTitle"/>
+          <include name="registerTitle"/>
+        </methods>
+      </class> <!-- com.nopcommerce.frontend.VerifyTitles -->
+      <class name="com.nopcommerce.admin.Discount">
+        <methods>
+          <include name="discount"/>
+          <include name="close"/>
+          <include name="setDriver"/>
+        </methods>
+      </class> <!-- com.nopcommerce.admin.Discount -->
+      <class name="com.nopcommerce.frontend.Wish">
+        <methods>
+          <include name="setDriver"/>
+          <include name="close"/>
+          <include name="addToWish"/>
+        </methods>
+      </class> <!-- com.nopcommerce.frontend.Wish -->
+      <class name="com.nopcommerce.frontend.Register">
+        <methods>
+          <include name="setDriver"/>
+          <include name="close"/>
+          <include name="register"/>
+        </methods>
+      </class> <!-- com.nopcommerce.frontend.Register -->
+      <class name="com.nopcommerce.frontend.ContactUs">
+        <methods>
+          <include name="setDriver"/>
+          <include name="validContactUs"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- com.nopcommerce.frontend.ContactUs -->
+      <class name="com.nopcommerce.frontend.Cart">
+        <methods>
+          <include name="setDriver"/>
+          <include name="close"/>
+          <include name="addToCartAsGuest"/>
+        </methods>
+      </class> <!-- com.nopcommerce.frontend.Cart -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
